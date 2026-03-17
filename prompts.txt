@@ -1,0 +1,84 @@
+Schema Anchoring Prompt Template (Reusable Framework)
+
+Use catalog: <catalog_name>
+Use schema: <schema_name>
+
+Tables and columns:
+
+Sales:
+- OrderID
+- OrderDate
+- Quantity
+- Price
+- Discount
+- Profit
+- CustomerID
+- ProductID
+- ShippingID
+
+Customers:
+- ID
+- First Name
+- Last Name
+- Region
+- City
+- State
+
+Products:
+- product_id
+- product_name
+- category
+- subcategory
+- unit_price_mrp
+
+Shipping:
+- ShippingID
+- Ship_Mode
+- Shipping_Cost
+- Carrier
+
+Business Rules:
+- Revenue = Quantity * Price
+- Profit Margin = Profit / Revenue
+
+Now write a SQL query to: <your requirement>
+
+---------------------
+
+Find out for each of the subcategory how many products we have?
+
+---------------------
+
+Write SQL commands to list all catalogs, schemas, and tables available in the current Databricks workspace.
+
+---------------------
+
+Find out the number of students in each branch, consider students table
+
+---------------------
+
+Write a query joining Sales, Customers, Products, and Shipping tables using appropriate primary and foreign keys.
+
+--------------------- 
+
+Using Sales table, calculate monthly revenue and order by year and month.
+
+---------------------
+
+Identify top 10 customers by total profit using Sales and Customers tables.
+
+---------------------
+
+Find how many new customers were acquired in 2022
+
+---------------------
+
+Classify customers based on their total sale. Show CustomerID, name, total sales: 
+--Platinum – TotalSales ≥ 15,000
+--Gold – 10,000 to < 15,000
+--Silver – 5,000 to < 10,000
+--Bronze – < 5,000
+
+---------------------
+
+Get the most recent order (by OrderDate) for every customer.

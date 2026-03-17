@@ -1,0 +1,14 @@
+employee_id,employee_name,department,hire_date,salary
+101,John Smith,Sales,10-01-2022,60000
+102,Aisha Khan,HR,15-03-2021,55000
+103,Rahul Verma,IT,01-07-2023,72000
+104,Maria Lopez,Finance,20-11-2020,68000
+105,David Chen,IT,,75000
+106,Sara Ali,Sales,05-09-2022,
+107,Liam Brown,Marketing,17-06-2021,52000
+108,Olivia Martin,IT,10-02-2022,71000
+109,Noah Wilson,Sales,11-01-2023,64000
+110,Emma Taylor,HR,30-05-2020,58000
+110,Emma Taylor,HR,30-05-2020,58000
+111,Arjun Mehta,,14-04-2022,61000
+112,Sophia Garcia,Finance,09-08-2021,69000
